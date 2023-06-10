@@ -1,0 +1,12 @@
+.logo{
+
+    color:rgb(126, 54, 37)
+
+
+}
+body{
+    margin: 100px 0 0 0;
+    background-image: url(fh.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; }

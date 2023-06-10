@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Project</title>
+    <link rel="stylesheet" href="style.css"> 
+    <style>
+        
+        body{
+            margin: 100px 0 0 0;
+            background-image: url(images/fonfall.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed; 
+        }
+        *{
+          margin: 0;}
+          header {
+            padding: 10px 5%; 
+            background-color: rgb(77, 85, 127);
+            /*background-color: rgb(129,158,192);*/
+            position: fixed; 
+            top: 0px;
+            left: 0px;
+            width:100%;
+            display:flex;
+            justify-content: space-between;
+            color: rgb(245, 199, 198) ;
+        }
+        header>*{
+            display: inline-block;
+            width: 450px;
+        }
+        .post {
+            padding: 20px 5%;
+            text-align: center;
+            color: white;
+           
+            
+        }
+        .post>*{
+            display: inline-block;
+            width:450px;
+            font-size:30px;
+            vertical-align: middle;
+            /*border: 4px ridge rgb(243,233,86);*/
+            background-color: rgb(148, 178, 203);
+        }
+        .przerwa{
+            
+            height: 100px;
+        }
+        .pusty {
+            
+            width: 10%;
+            
+        }
+        .banner{
+            padding: 20% 5%;
+            color: rgb(249, 234, 162);
+            font-size: 30px;
+            /*background-color: rgb(129,158,192);*/
+        }
+        .f {
+            color:rgb(251, 245, 245);
+            font-size: large;
+            text-align: right;
+            width: 100%;
+            margin-right: 100px;
+            
+        }
+        .a{
+            display:inline-block;
+            color: white;
+            background-color: rgb(102, 104, 177);
+            text-decoration: none;
+            padding:2px 32px;}
+        .cho{
+            height: 300px;
+            width: 300px;
+        }
+        .gde{
+            margin: 100px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .kto{
+            height: 20px;
+            width: 20px;
+        }
+        #final{
+            padding: 15% 30%;
+            background-image: url(images/fall.jpg);
+            background-attachment: fixed;
+        }
+        #final>div{
+            padding: 10px;
+            background-color: black;
+            font-size: 30px;
+            color: yellow;
+            text-align: center;
+            border: 4px solid black;
+        }
+
+    
+    </style>
+</head>
+<body>
+	<header>
+        <h1>HOPE</h1>
+        <div class = "pusty">  </div>
+        <nav class = "f">
+
+            
+                <a href="index.html" class = "a" class="f" >Home</a>
+                <a href="Autors.html" class = "a" class="f">Autors</a>
+                <a href="Fall.html" class = "a" class="f" class = "active">Fall(IL)</a>
+                <a href="Sun.html" class = "a" class="f">False sun</a>
+            
+        </nav>
+    </header>
+    <main>
+        <article class = "banner"> 
+            <h1 class = "post">FALL(IL)</h1></article>
+            <article class = "post" id = "gre">
+                <p>The game tells about the life of an outcast at school. You need to get the bullies to get behind you. The game will have many endings, so there are a lot of options for solving the problem. </p>    
+                <img src = "images/fall1.jpg" class = "cho">
+                
+            </article>
+            <div class="przerwa"></div>
+            <article class = "post" id = "Rysunek">
+                <img src = "images/fall2.jpg" class = "cho">
+                <p>Fall(IL) is a game set in the danganronpa universe. For the most part, this is fanfiction for a friend's birthday. But even so, I tried so I think I should share this with the world. If someone is interested in this visual novel, then I will be glad.</p>    
+                
+                
+            </article>
+            <div class="przerwa"></div>
+            
+            <article class = "gde" >
+                <img src = "images/hihi.jpg" class = "cho">
+                <img src = "images/hihi1.jpg" class = "cho">
+                <img src = "images/hihi2.jpg" class = "cho">
+                
+            </article>
+            <div class="przerwa"></div>
+            
+            <article id = "final">
+                <div> The game will release on November 6, 2023. Don't take it seriously, it's just fanfiction </div>
+                
+                
+            </article>
+
+    </main>
+    <footer>
+        <div class="container">
+            <p class="footerP"></p>
+            <nav class="footerNAV"></nav>
+        </div>
+    </footer>
+</body>
+</html>
